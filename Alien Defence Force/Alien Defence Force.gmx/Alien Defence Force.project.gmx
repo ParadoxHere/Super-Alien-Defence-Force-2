@@ -242,6 +242,11 @@
     <scripts name="Time">
       <script>scripts\seconds.gml</script>
     </scripts>
+    <scripts name="Shop">
+      <script>scripts\shop_buy_pistol_ammo.gml</script>
+      <script>scripts\shop_buy_shotgun_ammo.gml</script>
+      <script>scripts\shop_buy_sniper_ammo.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_gui_6</font>
@@ -316,6 +321,14 @@
       <object>objects\obj_pause_button_parent</object>
       <object>objects\obj_pause_button_menu</object>
       <object>objects\obj_pause</object>
+    </objects>
+    <objects name="Shop">
+      <object>objects\obj_shop_button_parent</object>
+      <objects name="Ammo">
+        <object>objects\obj_shop_button_shotgun_ammo</object>
+        <object>objects\obj_shop_button_pistol_ammo</object>
+        <object>objects\obj_shop_button_sniper_ammo</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
