@@ -59,9 +59,12 @@ var play_cant = false;
 if(pressed) {
     if(buy_script != -1) {
         if(global.money &gt;= cost) { 
-            audio_play_sound(snd_buy, 10, false);
-            global.money -= cost;
-            script_execute(buy_script, arg);
+            if(script_execute(buy_script, arg)) {
+                audio_play_sound(snd_buy, 10, false);
+                global.money -= cost;
+            } else {
+                play_cant = true;
+            }
         } else {
             play_cant = true;
         }

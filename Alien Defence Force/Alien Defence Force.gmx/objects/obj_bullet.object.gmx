@@ -30,6 +30,7 @@ start_x = 0;
 start_y = 0;
 damage = 0;
 hit = false;
+creator = noone;
 </string>
           </argument>
         </arguments>

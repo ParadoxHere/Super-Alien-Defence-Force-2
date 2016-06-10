@@ -175,7 +175,7 @@ if(fadeAway) {
           <argument>
             <kind>1</kind>
             <string>if(sprite_index != deathAnimation &amp;&amp; !other.hit) {
-    if(hp &gt; 0) {
+    if(hp &gt; 0 &amp;&amp; other.creator != id) {
         hp -= other.damage;
     }
     

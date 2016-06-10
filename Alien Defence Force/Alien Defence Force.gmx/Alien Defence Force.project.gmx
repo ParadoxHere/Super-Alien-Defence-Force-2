@@ -150,6 +150,7 @@
       <scripts name="Enemy">
         <script>scripts\enemy_platform_collision.gml</script>
         <script>scripts\enemy_ghost.gml</script>
+        <script>scripts\create_enemy_bullet.gml</script>
       </scripts>
     </scripts>
     <scripts name="Button">
@@ -243,9 +244,17 @@
       <script>scripts\seconds.gml</script>
     </scripts>
     <scripts name="Shop">
-      <script>scripts\shop_buy_pistol_ammo.gml</script>
-      <script>scripts\shop_buy_shotgun_ammo.gml</script>
-      <script>scripts\shop_buy_sniper_ammo.gml</script>
+      <scripts name="Ammo">
+        <script>scripts\shop_buy_ammo.gml</script>
+        <script>scripts\shop_buy_shotgun_ammo.gml</script>
+        <script>scripts\shop_buy_pistol_ammo.gml</script>
+        <script>scripts\shop_buy_sniper_ammo.gml</script>
+      </scripts>
+      <scripts name="Gun">
+        <script>scripts\shop_buy_gun.gml</script>
+        <script>scripts\shop_buy_sniper.gml</script>
+        <script>scripts\shop_buy_shotgun.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -306,7 +315,6 @@
     </objects>
     <objects name="Other">
       <object>objects\obj_supply_crate</object>
-      <object>objects\obj_splash_fade</object>
       <object>objects\obj_splash_icon</object>
       <object>objects\obj_light</object>
       <object>objects\obj_screen_fade</object>
@@ -328,6 +336,10 @@
         <object>objects\obj_shop_button_shotgun_ammo</object>
         <object>objects\obj_shop_button_pistol_ammo</object>
         <object>objects\obj_shop_button_sniper_ammo</object>
+      </objects>
+      <objects name="Gun">
+        <object>objects\obj_shop_button_sniper</object>
+        <object>objects\obj_shop_button_shotgun</object>
       </objects>
     </objects>
   </objects>

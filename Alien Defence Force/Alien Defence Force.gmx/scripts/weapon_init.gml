@@ -55,7 +55,7 @@ global.weaponArray[index, 6] = spr_holding_shotgun;
 global.weaponArray[index, 7] = 5;
 global.weaponArray[index, 8] = 120;
 global.weaponArray[index, 9] = global.weaponArray[index, 7];
-global.weaponArray[index, 10] = true;
+global.weaponArray[index, 10] = false;
 global.weaponArray[index, 11] = 445;
 global.weaponArray[index, 12] = seconds(.7);
 
@@ -71,7 +71,7 @@ global.weaponArray[index, 6] = spr_holding_sniper;
 global.weaponArray[index, 7] = 7;
 global.weaponArray[index, 8] = 120;
 global.weaponArray[index, 9] = global.weaponArray[index, 7];
-global.weaponArray[index, 10] = true;
+global.weaponArray[index, 10] = false;
 global.weaponArray[index, 11] = 1025;
 global.weaponArray[index, 12] = seconds(.65);
 

@@ -145,6 +145,9 @@ if(mouse_wheel_up()) {
 if(real(keyboard_lastchar) != 0) {
     var num = real(keyboard_lastchar);
     index = num - 1;
+    if(index &gt; global.weapons) {
+        index = global.weapons;
+    }
 }
 
 

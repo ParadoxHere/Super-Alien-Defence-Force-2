@@ -3,6 +3,7 @@
 var xx = argument0;
 var yy = argument1;
 var dir = argument2;
+var damage = argument3;
 
 var temp_dir = dir;
 var temp_x = xx;
@@ -19,4 +20,4 @@ while(!collision && distance_to_point(temp_x, temp_y) < room_width) {
 var shot = instance_create(temp_x, temp_y, obj_bullet);
 shot.start_x = start_x;
 shot.start_y = start_y;
-shot.damage = global.weaponArray[global.currentWeapon, 3];
+shot.damage = damage

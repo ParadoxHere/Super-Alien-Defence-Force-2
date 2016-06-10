@@ -111,11 +111,8 @@ if(fadeAway) {
     if(attack) {
         if(floor(image_index) == 4) {
             if(shoot == true) {
-                bullet = instance_create(x, y, obj_robot_bullet);
-                bullet.damage = damage;
-                bullet.spd = 10 * image_xscale;  
-                shoot = false;      
-                
+                create_enemy_bullet(x, y, point_direction(0, 0, image_xscale, 0), damage);
+                shoot = false;                    
             }
         } else {
             shoot = true;

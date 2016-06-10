@@ -26,12 +26,12 @@ if(hspd != 0) {
     sprite_index = spr_player;
 }
 
-if(global.weaponArray[global.currentWeapon, 9]) {
+if(global.weaponArray[global.currentWeapon, 10]) {
     if(!position_meeting(mouse_x, mouse_y, obj_pause)) {
         if(fire) {
             if(alarm[0] == -1) { 
                 if(global.weaponArray[global.currentWeapon, 9] > 0) {
-                    create_bullet(x + (global.weaponArray[global.currentWeapon, 4] * image_xscale), y + global.weaponArray[global.currentWeapon, 5], point_direction(0, 0, image_xscale, 0));
+                    create_bullet(x + (global.weaponArray[global.currentWeapon, 4] * image_xscale), y + global.weaponArray[global.currentWeapon, 5], point_direction(0, 0, image_xscale, 0), global.weaponArray[global.currentWeapon, 3]);
                     global.weaponArray[global.currentWeapon, 9]--;
                 }
                 alarm[0] = global.weaponArray[global.currentWeapon, 2];
