@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_fadeto(rm_main_menu);
+            <string>image_speed = 0;
+room_fadeto(rm_main_menu);
 </string>
           </argument>
         </arguments>

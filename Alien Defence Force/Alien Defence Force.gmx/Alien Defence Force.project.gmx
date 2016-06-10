@@ -149,8 +149,12 @@
       </scripts>
       <scripts name="Enemy">
         <script>scripts\enemy_platform_collision.gml</script>
-        <script>scripts\enemy_ghost.gml</script>
         <script>scripts\create_enemy_bullet.gml</script>
+        <script>scripts\enemy_base.gml</script>
+        <script>scripts\enemy.gml</script>
+        <script>scripts\enemy_ghost.gml</script>
+        <script>scripts\enemy_bomber.gml</script>
+        <script>scripts\enemy_robot.gml</script>
       </scripts>
     </scripts>
     <scripts name="Button">
@@ -267,13 +271,10 @@
   <objects name="objects">
     <objects name="Enemy">
       <object>objects\obj_enemy_parent</object>
-      <object>objects\obj_bomber</object>
-      <object>objects\obj_ghost</object>
       <object>objects\obj_enemy</object>
-      <objects name="Robot">
-        <object>objects\obj_robot</object>
-        <object>objects\obj_robot_bullet</object>
-      </objects>
+      <object>objects\obj_ghost</object>
+      <object>objects\obj_bomber</object>
+      <object>objects\obj_robot</object>
     </objects>
     <objects name="Player">
       <object>objects\obj_bullet</object>

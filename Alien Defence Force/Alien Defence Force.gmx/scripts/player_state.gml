@@ -26,7 +26,7 @@ if(hspd != 0) {
     sprite_index = spr_player;
 }
 
-if(global.weaponArray[global.currentWeapon, 10]) {
+if(global.weaponArray[global.currentWeapon, 10] && alarm[1] == -1) {
     if(!position_meeting(mouse_x, mouse_y, obj_pause)) {
         if(fire) {
             if(alarm[0] == -1) { 
