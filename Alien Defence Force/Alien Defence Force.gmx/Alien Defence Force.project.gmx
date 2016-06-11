@@ -69,6 +69,7 @@
       <sprite>sprites\spr_gui</sprite>
       <sprite>sprites\spr_gui_bottom_right</sprite>
       <sprite>sprites\spr_gui_bottom_left</sprite>
+      <sprite>sprites\spr_heart</sprite>
     </sprites>
     <sprites name="Weapons">
       <sprites name="Bullet">
@@ -259,6 +260,9 @@
         <script>scripts\shop_buy_sniper.gml</script>
         <script>scripts\shop_buy_shotgun.gml</script>
       </scripts>
+      <scripts name="Health">
+        <script>scripts\shop_buy_health.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -341,6 +345,11 @@
       <objects name="Gun">
         <object>objects\obj_shop_button_sniper</object>
         <object>objects\obj_shop_button_shotgun</object>
+      </objects>
+      <objects name="Health">
+        <object>objects\obj_shop_button_health_full</object>
+        <object>objects\obj_shop_button_health_half</object>
+        <object>objects\obj_shop_button_health_quarter</object>
       </objects>
     </objects>
   </objects>

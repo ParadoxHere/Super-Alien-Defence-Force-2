@@ -25,37 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>buy_script = shop_buy_pistol_ammo;
-cost = 50;
-arg = 12;
-icon = spr_gun_pistol;
-name = "Pistol Ammo#$" + string(cost);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>event_inherited();
-if(!global.weaponArray[0, 10]) {
-    image_index = 1;
-}
+            <string>buy_script = shop_buy_health;
+cost = 1500;
+arg = 1;
+icon = spr_heart;
+name = "100%#$" + string(cost);
 </string>
           </argument>
         </arguments>

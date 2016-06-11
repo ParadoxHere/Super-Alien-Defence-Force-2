@@ -108,7 +108,7 @@ if(icon != -1) {
 }
 
 var bottom_width = top_width;
-var buttom_height = sprite_height - top_height;
+var buttom_height = (sprite_height - (top_height + 1));
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);

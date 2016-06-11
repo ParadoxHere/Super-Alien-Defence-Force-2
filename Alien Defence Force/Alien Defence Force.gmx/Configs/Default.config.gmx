@@ -307,8 +307,8 @@
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
     <option_version_build>0</option_version_build>
-    <option_version_company>Universal Darkness</option_version_company>
-    <option_version_copyright>Copyright (C) 2015 Universal Darkness</option_version_copyright>
+    <option_version_company>The Paradoxical Force</option_version_company>
+    <option_version_copyright>Copyright (C) 2016 The Paradoxical Force</option_version_copyright>
     <option_version_description>#indievsgamers</option_version_description>
     <option_version_major>1</option_version_major>
     <option_version_minor>0</option_version_minor>
@@ -352,8 +352,8 @@
     <option_win8_wide_logo>Configs\Default\Windows8\logos\logo310.png</option_win8_wide_logo>
     <option_windowcolor>clBlack</option_windowcolor>
     <option_windows_build_version>0</option_windows_build_version>
-    <option_windows_company_info>Universal Darkness</option_windows_company_info>
-    <option_windows_copyright_info>Copyright (C) 2015 Universal Darkness</option_windows_copyright_info>
+    <option_windows_company_info>The Paradoxical Force</option_windows_company_info>
+    <option_windows_copyright_info>Copyright (C) 2016 The Paradoxical Force</option_windows_copyright_info>
     <option_windows_description_info>#indievsgamers</option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
